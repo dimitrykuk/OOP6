@@ -1,14 +1,13 @@
 package homework;
 
-public class User implements SomeOne{
-    private final String name;
+import homework.SomeOne;
 
-    public User(String name){
-        this.name = name;
-    }
+public class Beholder implements SomeOne {
+
+
     @Override
     public String getName() {
-        return name;
+        return null;
     }
 
     @Override
